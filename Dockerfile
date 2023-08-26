@@ -26,9 +26,9 @@ COPY views /opt/go/views
 RUN mkdir -p /opt/go/db /opt/go/conf
 
 # 持久化数据库
-VOLUME /opt/go/db
+#VOLUME /opt/go/db
 # 持久化配置
-VOLUME /opt/go/conf
+#VOLUME /opt/go/conf
 
 COPY conf /opt/go/confbak
 
